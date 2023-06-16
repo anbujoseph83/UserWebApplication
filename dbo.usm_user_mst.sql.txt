@@ -1,0 +1,3 @@
+create table usm_user_mst(usm_user_id int primary key identity(1,1), usm_user_name varchar(100),
+usm_user_password varchar(20),usm_user_address varchar(100),usm_user_email varchar(30), 
+usm_user_phone varchar(10), usm_user_active tinyint, usm_user_add_date datetime)
